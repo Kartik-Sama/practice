@@ -1,0 +1,59 @@
+body
+{
+    background-image: url("bg_theme.jpeg")
+}
+.container-fluid
+{
+    border-collapse: collapse;
+}
+#header
+{
+    width : 100%;
+    color: aliceblue;
+    font-family: Righteous,serif;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.data
+{
+    font-family : Merriweather,serif;
+    color: aliceblue;
+    border-style: outset;
+    border-bottom: none;
+    border-collapse: collapse;
+    word-wrap: normal;
+    font-size:1.5em;
+    padding: 3ex;
+}
+.data-right
+{
+    border-left: none;
+    text-align: left
+}
+.data-left
+{
+    border-right: none;
+    text-align: right;
+}
+.image
+{
+    height:auto; 
+    width: 100%;
+    border-style: inset;
+    margin-top:3px;
+}
+.text
+{
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 0.5em;
+}
+::-webkit-scrollbar-track{
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: rgb(198, 208, 212);
+}
